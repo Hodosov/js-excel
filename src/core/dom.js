@@ -58,6 +58,11 @@ class Dom {
         return $(this.$el.querySelector(selector))
     }
 
+    focus() {
+        this.$el.focus()
+        return this
+    }
+
     id(parse) {
         if (parse) {
             const parsed = this.id().split(":")
