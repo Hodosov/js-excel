@@ -54,6 +54,7 @@ export class Table extends ExcelComponent {
                 this.selection.select($target)
             }
         }
+        this.$emit('table:click', $(event.target))
     }
 
     onKeydown(event) {
