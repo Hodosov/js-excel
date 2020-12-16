@@ -29,7 +29,7 @@ export class Formula extends ExcelComponent {
         })
     }
 
-    storeChanged({currentText}) {
+    storeChanged(currentText) {
         this.$formula.text(currentText)
     }
 
