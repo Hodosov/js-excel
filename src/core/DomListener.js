@@ -1,5 +1,3 @@
-// import { $ } from "./dom"
-
 import { capitalize } from "./utils"
 
 export class DomListener {
