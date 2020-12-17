@@ -8,7 +8,7 @@ export class Page {
     }
 
     afterRender() {
-        
+
     }
 
     destroy() {
